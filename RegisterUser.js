@@ -1,7 +1,7 @@
 class RegisterUser {
-    constructor(name) {
-        this.name = name
+    constructor(user) {
+        this.user = user
     }
 }
 
-module.exports = RegisterUser
+module.exports = RegisterUser 
