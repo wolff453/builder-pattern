@@ -1,4 +1,4 @@
-const RegisterUser = require("./Person");
+const RegisterUser = require("./RegisterUser");
 
 class RegisterUserBuilder {
   constructor(name){
