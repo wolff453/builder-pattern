@@ -1,23 +1,23 @@
 const RegisterUser = require("./RegisterUser");
 
 class RegisterUserBuilder {
-  constructor(name){
-    this.name = new RegisterUser(name)
+  constructor(user){
+    this.user = new RegisterUser(user)
   }
 
   setAge(age) {
-    this.name.age = age
-    return this
+    this.user.age = age
+    return this 
   }
 
   setPhone(phone) {
-    this.name.phone = phone
+    this.user.phone = phone
     return this
 
-  }
+  }   
 
     build(){
-      return this.name
+      return this.user
     }
 
 }
